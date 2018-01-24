@@ -5,14 +5,14 @@ main()
     char tukanekfniz[80];
     bool isMoreThanOnce=false;
     cin.getline(tukanekfniz,80);
-    for(int i=0;tukanekfniz[i];i++)
+    for(int a=0;tukanekfniz[a];a++)
     {
-        for(int j=i+1; tukanekfniz[j];j++ )
+        for(int j=a+1; tukanekfniz[j];j++ )
         {
-            if(tukanekfniz[i]==tukanekfniz[j])
+            if(tukanekfniz[a]==tukanekfniz[j])
             {
                 isMoreThanOnce=true;
-                cout<<tukanekfniz[i]<<"  "<<i<<" "<<j;
+                cout<<tukanekfniz[a]<<"  "<<a<<" "<<j;
                 break;
             }
         }
