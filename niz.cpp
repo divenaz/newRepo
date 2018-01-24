@@ -2,17 +2,17 @@
 using namespace std;
 main()
 {
-    char niz[80];
+    char tukanekfniz[80];
     bool isMoreThanOnce=false;
-    cin.getline(niz,80);
-    for(int i=0;niz[i];i++)
+    cin.getline(tukanekfniz,80);
+    for(int i=0;tukanekfniz[i];i++)
     {
-        for(int j=i+1; niz[j];j++ )
+        for(int j=i+1; tukanekfniz[j];j++ )
         {
-            if(niz[i]==niz[j])
+            if(tukanekfniz[i]==tukanekfniz[j])
             {
                 isMoreThanOnce=true;
-                cout<<niz[i]<<"  "<<i<<" "<<j;
+                cout<<tukanekfniz[i]<<"  "<<i<<" "<<j;
                 break;
             }
         }
